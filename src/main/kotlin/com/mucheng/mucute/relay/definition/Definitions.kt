@@ -8,8 +8,6 @@ import org.cloudburstmc.protocol.bedrock.data.definitions.ItemDefinition
 import org.cloudburstmc.protocol.common.DefinitionRegistry
 import org.cloudburstmc.protocol.common.SimpleDefinitionRegistry
 import java.io.InputStream
-import java.nio.file.Files
-import java.nio.file.Path
 
 
 @Suppress("MemberVisibilityCanBePrivate")
