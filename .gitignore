@@ -17,6 +17,5 @@ log/
 auth.json
 build/
 .gradle/
-.idea/
 .kotlin/
 out/

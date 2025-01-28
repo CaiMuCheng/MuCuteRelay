@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/network" name="network">
+                <projects>
+                  <project path="$PROJECT_DIR$/network" />
+                  <project path="$PROJECT_DIR$/network/transport-raknet" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/protocol" name="protocol">
+                <projects>
+                  <project path="$PROJECT_DIR$/protocol" />
+                  <project path="$PROJECT_DIR$/protocol/bedrock-codec" />
+                  <project path="$PROJECT_DIR$/protocol/bedrock-connection" />
+                  <project path="$PROJECT_DIR$/protocol/common" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/network" />
+            <option value="$PROJECT_DIR$/network/transport-raknet" />
+            <option value="$PROJECT_DIR$/protocol" />
+            <option value="$PROJECT_DIR$/protocol/bedrock-codec" />
+            <option value="$PROJECT_DIR$/protocol/bedrock-connection" />
+            <option value="$PROJECT_DIR$/protocol/common" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

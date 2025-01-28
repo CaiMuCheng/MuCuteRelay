@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/bedrock-codec/protocol.bedrock-codec.main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/bedrock-codec/protocol.bedrock-codec.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/bedrock-connection/protocol.bedrock-connection.main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/bedrock-connection/protocol.bedrock-connection.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/protocol/common/protocol.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/protocol/common/protocol.common.main.iml" />
+    </modules>
+  </component>
+</project>
