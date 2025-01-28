@@ -19,3 +19,4 @@ build/
 .gradle/
 .idea/
 .kotlin/
+out/
