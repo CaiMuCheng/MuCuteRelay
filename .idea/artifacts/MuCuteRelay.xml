@@ -7,41 +7,31 @@
       <element id="module-output" name="protocol.bedrock-codec.main" />
       <element id="module-output" name="protocol.common.main" />
       <element id="module-output" name="network.transport-raknet.main" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.15.3/79baf4e605eb3bbb60b1c475d44a7aecceea1d60/jackson-annotations-2.15.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.jodah/expiringmap/0.5.10/edb40f088e390b8dd33a37a37d8de8f252b4c49d/expiringmap-0.5.10.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.maps/long-object-maps/8.5.15/5d5e86d7026fef4fe4df5995917141b297cd9f0d/long-object-maps-8.5.15.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.raphimc/MinecraftAuth/4.0.1/cb041511cc16c172a09260652c14141c0161d7d6/MinecraftAuth-4.0.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jsonwebtoken/jjwt-impl/0.12.5/b4ceb5407a360e0eb7ba6fa6c6452abadf6c120a/jjwt-impl-0.12.5.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.24.2/daf49ee71f2664c3ff57412e4b43061e61a28596/log4j-api-2.24.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.sets/object-sets/8.5.15/9dfab2f78665a93b1dda148ad7af0448b032b143/object-sets-8.5.15.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitbucket.b_c/jose4j/0.9.6/357a3836bb5da16f314f3a1e954518e5468cd915/jose4j-0.9.6.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nukkitx/natives/1.0.3/dda48b7ba8e8098de78a9baabccb98068c2dd488/natives-1.0.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.sets/int-sets/8.5.15/19939e8c2350b28860cdcfcb190699fd6fb46264/int-sets-8.5.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.commons/object-common/8.5.15/80effe63aba8542786480f9affd7576738dc8cc6/object-common-8.5.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.101.Final/a4d94fd6cdf7a37b15237e32434afd6b955cc591/netty-buffer-4.1.101.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil/core/8.5.15/38314e727cf4f7caa32c321811f096d2f222df39/core-8.5.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.15.3/79baf4e605eb3bbb60b1c475d44a7aecceea1d60/jackson-annotations-2.15.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.airlift/aircompressor/0.25/f9335fb25f31289ffbe512aa0732c872abdfd64d/aircompressor-0.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.math/immutable/2.0-SNAPSHOT/d1ca5c27671a269d2daee9f4bd442f67ebd3e13c/immutable-2.0-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.netty/netty-transport-raknet/1.0.0.CR3-SNAPSHOT/70d4681e69f39b8c1c5fc8a2a3720314874b5a9f/netty-transport-raknet-1.0.0.CR3-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.commons/long-common/8.5.15/7070095caa6b74e9c64dbb17e8c383917aed8049/long-common-8.5.15.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.101.Final/5e7eddfa4dfffcbd375d265d1fd08297df94f82f/netty-resolver-4.1.101.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.13/80229737f704b121a318bba5d5deacbcf395bc77/slf4j-api-2.0.13.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.36/6c62681a2f655b49963a5983b8b0950a6120ae14/slf4j-api-1.7.36.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.101.Final/bdb16e4d308b5757123decc886896815d1daf7a3/netty-common-4.1.101.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.commons/int-common/8.5.15/ad75800b9e8fd7da228ba1287cc11ee865299002/int-common-8.5.15.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.15.3/60d600567c1862840397bf9ff5a92398edc5797b/jackson-core-2.15.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.maps/int-object-maps/8.5.15/7c31d36fe7d7fdc6e23ae733c2f48d276043d5e0/int-object-maps-8.5.15.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.lenni0451.commons/httpclient/1.5.1/a1b4eac254cee7daa2e6f98ba08cee8abc69e721/httpclient-1.5.1.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.netty/netty-transport-raknet/1.0.0.CR3-SNAPSHOT/70d4681e69f39b8c1c5fc8a2a3720314874b5a9f/netty-transport-raknet-1.0.0.CR3-SNAPSHOT.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.101.Final/642523c57c4be15b8b461be7b1532262d193bbb3/netty-codec-4.1.101.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.15.3/a734bc2c47a9453c4efa772461a3aeb273c010d9/jackson-databind-2.15.3.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.sets/int-sets/8.5.15/19939e8c2350b28860cdcfcb190699fd6fb46264/int-sets-8.5.15.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.24.2/9ba3a51ed9d80254b382dea521467de51797ac04/log4j-core-2.24.2.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.101.Final/a4d94fd6cdf7a37b15237e32434afd6b955cc591/netty-buffer-4.1.101.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.101.Final/d0697ef1d71c6111a1b18a387fa985fd6398ace2/netty-transport-native-unix-common-4.1.101.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.airlift/aircompressor/0.25/f9335fb25f31289ffbe512aa0732c872abdfd64d/aircompressor-0.25.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.sets/long-sets/8.5.15/6be189f65691265f31b20ee443fa12d0936a69ab/long-sets-8.5.15.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.commons/object-common/8.5.15/80effe63aba8542786480f9affd7576738dc8cc6/object-common-8.5.15.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.101.Final/bdb16e4d308b5757123decc886896815d1daf7a3/netty-common-4.1.101.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil/core/8.5.15/38314e727cf4f7caa32c321811f096d2f222df39/core-8.5.15.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.101.Final/b36cc2337b4a4135df7ee2f2d77431c3b541dc5/netty-transport-4.1.101.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.math/immutable/2.0-SNAPSHOT/d1ca5c27671a269d2daee9f4bd442f67ebd3e13c/immutable-2.0-SNAPSHOT.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.commons/int-common/8.5.15/ad75800b9e8fd7da228ba1287cc11ee865299002/int-common-8.5.15.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc/nbt/3.0.3.Final/be5456e9153e731a01d52f761d7d00c15679b185/nbt-3.0.3.Final.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.jsonwebtoken/jjwt-api/0.12.5/ea8243e36f16c2834ad69a048ed8a24aa9dd3e79/jjwt-api-0.12.5.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.maps/object-int-maps/8.5.15/2ad030f9206480038aa996365910c32f7b0c75ea/object-int-maps-8.5.15.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.jodah/expiringmap/0.5.10/edb40f088e390b8dd33a37a37d8de8f252b4c49d/expiringmap-0.5.10.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.commons/long-common/8.5.15/7070095caa6b74e9c64dbb17e8c383917aed8049/long-common-8.5.15.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.10.1/b3add478d4382b78ea20b1671390a858002feb6c/gson-2.10.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.sets/long-sets/8.5.15/6be189f65691265f31b20ee443fa12d0936a69ab/long-sets-8.5.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.15.3/a734bc2c47a9453c4efa772461a3aeb273c010d9/jackson-databind-2.15.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.bitbucket.b_c/jose4j/0.9.6/357a3836bb5da16f314f3a1e954518e5468cd915/jose4j-0.9.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc/nbt/3.0.3.Final/be5456e9153e731a01d52f761d7d00c15679b185/nbt-3.0.3.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.cloudburstmc.fastutil.sets/object-sets/8.5.15/9dfab2f78665a93b1dda148ad7af0448b032b143/object-sets-8.5.15.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.101.Final/d0697ef1d71c6111a1b18a387fa985fd6398ace2/netty-transport-native-unix-common-4.1.101.Final.jar" path-in-jar="/" />
       <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
     </root>
   </artifact>

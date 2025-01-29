@@ -120,7 +120,11 @@ class MuCuteRelaySession internal constructor(
                 }
             }
 
-            serverBoundImmediately(packet)
+            if (multiThreadEnabled) {
+                serverBound(packet)
+            } else {
+                serverBoundImmediately(packet)
+            }
 
             listeners.forEach { listener ->
                 try {
@@ -176,7 +180,11 @@ class MuCuteRelaySession internal constructor(
                 }
             }
 
-            clientBoundImmediately(packet)
+            if (multiThreadEnabled) {
+                clientBound(packet)
+            } else {
+                clientBoundImmediately(packet)
+            }
 
             listeners.forEach { listener ->
                 try {
