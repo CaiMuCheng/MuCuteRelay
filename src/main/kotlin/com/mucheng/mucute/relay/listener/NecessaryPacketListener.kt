@@ -321,7 +321,7 @@ open class NecessaryPacketListener(
                 muCuteRelaySession.server.peer.codecHelper.blockDefinitions = Definitions.blockDefinitions
             }
 
-            muCuteRelaySession.multiThreadEnabled = true
+            // muCuteRelaySession.multiThreadEnabled = true
             return false
         }
         if (packet is CameraPresetsPacket) {

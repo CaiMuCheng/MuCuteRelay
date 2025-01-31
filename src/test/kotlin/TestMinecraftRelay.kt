@@ -10,7 +10,7 @@ import java.nio.file.Paths
 fun main() {
     val path = Paths.get(".").resolve("auth.json")
     val authSession = fetchAuthSession(path.toFile())
-    val remoteAddress = InetSocketAddress("sg.hivebedrock.network", 19132)
+    val remoteAddress = InetSocketAddress("geo.hivebedrock.network", 19132)
 
     Definitions.loadBlockPalette()
     captureMuCuteRelay(

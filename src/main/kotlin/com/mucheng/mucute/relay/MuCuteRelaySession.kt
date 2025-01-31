@@ -6,6 +6,7 @@ import io.netty.util.ReferenceCountUtil
 import io.netty.util.internal.PlatformDependent
 import kotlinx.coroutines.*
 import net.raphimc.minecraftauth.step.bedrock.session.StepFullBedrockSession
+import org.cloudburstmc.netty.channel.raknet.RakReliability
 import org.cloudburstmc.protocol.bedrock.BedrockClientSession
 import org.cloudburstmc.protocol.bedrock.BedrockPeer
 import org.cloudburstmc.protocol.bedrock.BedrockServerSession
@@ -120,11 +121,7 @@ class MuCuteRelaySession internal constructor(
                 }
             }
 
-            if (multiThreadEnabled) {
-                serverBound(packet)
-            } else {
-                serverBoundImmediately(packet)
-            }
+            serverBound(packet)
 
             listeners.forEach { listener ->
                 try {
@@ -180,11 +177,7 @@ class MuCuteRelaySession internal constructor(
                 }
             }
 
-            if (multiThreadEnabled) {
-                clientBound(packet)
-            } else {
-                clientBoundImmediately(packet)
-            }
+            clientBound(packet)
 
             listeners.forEach { listener ->
                 try {

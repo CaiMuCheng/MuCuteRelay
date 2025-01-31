@@ -56,7 +56,7 @@ class MuCuteRelay(
 
     private var muCuteRelaySession: MuCuteRelaySession? = null
 
-    private var eventLoopGroup: EventLoopGroup = NioEventLoopGroup(Runtime.getRuntime().availableProcessors())
+    private var eventLoopGroup: EventLoopGroup = NioEventLoopGroup()
 
     fun capture(
         remoteAddress: InetSocketAddress = InetSocketAddress("geo.hivebedrock.network", 19132),
@@ -77,6 +77,8 @@ class MuCuteRelay(
             .channelFactory(RakChannelFactory.server(NioDatagramChannel::class.java))
             .option(RakChannelOption.RAK_ADVERTISEMENT, advertisement.toByteBuf())
             .option(RakChannelOption.RAK_GUID, Random.nextLong())
+            .childOption(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT)
+            .childOption(ChannelOption.RCVBUF_ALLOCATOR, FixedRecvByteBufAllocator(65535))
             .childHandler(object : BedrockChannelInitializer<MuCuteRelaySession.ServerSession>() {
 
                 override fun createSession0(peer: BedrockPeer, subClientId: Int): MuCuteRelaySession.ServerSession {
@@ -117,6 +119,9 @@ class MuCuteRelay(
             .option(RakChannelOption.RAK_REMOTE_GUID, clientGUID)
             .option(RakChannelOption.RAK_MTU, 1492)
             .option(RakChannelOption.RAK_MTU_SIZES, arrayOf(1492, 1200, 576))
+            .option(RakChannelOption.RAK_FLUSH_INTERVAL, 5)
+            .option(ChannelOption.RCVBUF_ALLOCATOR, FixedRecvByteBufAllocator(65535))
+            .option(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT)
             .handler(object : BedrockChannelInitializer<ClientSession>() {
 
                 override fun createSession0(peer: BedrockPeer, subClientId: Int): ClientSession {
