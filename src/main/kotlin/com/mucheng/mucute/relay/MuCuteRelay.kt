@@ -18,6 +18,7 @@ import org.cloudburstmc.protocol.bedrock.codec.BedrockCodec
 import org.cloudburstmc.protocol.bedrock.codec.v766.Bedrock_v766
 import org.cloudburstmc.protocol.bedrock.netty.initializer.BedrockChannelInitializer
 import java.net.InetSocketAddress
+import java.util.concurrent.ThreadLocalRandom
 import kotlin.random.Random
 
 class MuCuteRelay(
@@ -56,7 +57,7 @@ class MuCuteRelay(
 
     private var muCuteRelaySession: MuCuteRelaySession? = null
 
-    private var eventLoopGroup: EventLoopGroup = NioEventLoopGroup()
+    private var eventLoopGroup: EventLoopGroup = NioEventLoopGroup(Runtime.getRuntime().availableProcessors())
 
     fun capture(
         remoteAddress: InetSocketAddress = InetSocketAddress("geo.hivebedrock.network", 19132),
@@ -70,15 +71,12 @@ class MuCuteRelay(
             .ipv4Port(localAddress.port)
             .ipv6Port(localAddress.port)
 
-
-
         ServerBootstrap()
             .group(eventLoopGroup)
             .channelFactory(RakChannelFactory.server(NioDatagramChannel::class.java))
             .option(RakChannelOption.RAK_ADVERTISEMENT, advertisement.toByteBuf())
-            .option(RakChannelOption.RAK_GUID, Random.nextLong())
+            .option(RakChannelOption.RAK_GUID, ThreadLocalRandom.current().nextLong())
             .childOption(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT)
-            .childOption(ChannelOption.RCVBUF_ALLOCATOR, FixedRecvByteBufAllocator(65535))
             .childHandler(object : BedrockChannelInitializer<MuCuteRelaySession.ServerSession>() {
 
                 override fun createSession0(peer: BedrockPeer, subClientId: Int): MuCuteRelaySession.ServerSession {
@@ -110,17 +108,14 @@ class MuCuteRelay(
     }
 
     internal fun connectToServer(onSessionCreated: ClientSession.() -> Unit) {
-        val clientGUID = Random.nextLong()
+        val clientGUID = ThreadLocalRandom.current().nextLong()
         Bootstrap()
             .group(eventLoopGroup)
             .channelFactory(RakChannelFactory.client(NioDatagramChannel::class.java))
             .option(RakChannelOption.RAK_PROTOCOL_VERSION, muCuteRelaySession!!.server.codec.raknetProtocolVersion)
             .option(RakChannelOption.RAK_GUID, clientGUID)
             .option(RakChannelOption.RAK_REMOTE_GUID, clientGUID)
-            .option(RakChannelOption.RAK_MTU, 1492)
-            .option(RakChannelOption.RAK_MTU_SIZES, arrayOf(1492, 1200, 576))
             .option(RakChannelOption.RAK_FLUSH_INTERVAL, 5)
-            .option(ChannelOption.RCVBUF_ALLOCATOR, FixedRecvByteBufAllocator(65535))
             .option(ChannelOption.ALLOCATOR, PooledByteBufAllocator.DEFAULT)
             .handler(object : BedrockChannelInitializer<ClientSession>() {
 
